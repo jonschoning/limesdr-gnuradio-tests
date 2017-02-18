@@ -1,0 +1,59 @@
+Generating: '/home/jon/fs/sdr/tests/null-source/nullsource_to_osmocom_sink.py'
+
+Executing: /usr/bin/python -u /home/jon/fs/sdr/tests/null-source/nullsource_to_osmocom_sink.py
+
+gr-osmosdr v0.1.4-77-g2a2236cc (0.1.5git) gnuradio 3.7.10
+built-in sink types: soapy redpitaya file 
+[INFO] Make connection: 'LimeSDR-USB [USB 2.0] 9060B00462615'
+Estimated reference clock 30.7197 MHz
+Selected reference clock 30.720 MHz
+[INFO] Device name: LimeSDR-USB
+[INFO] Reference: 30.72 MHz
+[INFO] Init LMS7002M(0)
+LMS7002M values cache at /home/jon/.limesuite/LMS7002M_cache_values.db
+[INFO] Ver=7, Rev=1, Mask=1
+[INFO] LMS7002M calibration values caching Enable
+[INFO] SoapyLMS7::setFrequency(Rx, 0, BB, 0 MHz)
+[INFO] SoapyLMS7::setFrequency(Tx, 0, BB, 0 MHz)
+[INFO] SoapyLMS7::setAntenna(Rx, 0, LNAL)
+[INFO] SoapyLMS7::setAntenna(Tx, 0, BAND1)
+[INFO] SoapyLMS7::setGain(Rx, 0, PGA, 0 dB)
+[INFO] SoapyLMS7::setGain(Rx, 0, LNA, 0 dB)
+[INFO] SoapyLMS7::setGain(Rx, 0, TIA, 0 dB)
+[INFO] SoapyLMS7::setGain(Tx, 0, PAD, -50 dB)
+[INFO] SoapyLMS7::setSampleRate(Rx, 0, 10 MHz), CGEN=80 MHz, ADC=20 MHz, decim=2
+ConnectionSTREAM::ConfigureFPGA_PLL(tx=20MHz, rx=10MHz)
+[INFO] SoapyLMS7::setSampleRate(Tx, 0, 10 MHz), CGEN=80 MHz, DAC=20 MHz, interp=2
+ConnectionSTREAM::ConfigureFPGA_PLL(tx=10MHz, rx=10MHz)
+[INFO] SoapyLMS7::setBandwidth(Rx, 0, 30 MHz)
+[INFO] Rx Filter calibrated from cache
+[INFO] SoapyLMS7::setBandwidth(Tx, 0, 30 MHz)
+[INFO] Tx Filter calibrated from cache
+[INFO] SoapyLMS7::setFrequency(Rx, 1, BB, 0 MHz)
+[INFO] SoapyLMS7::setFrequency(Tx, 1, BB, 0 MHz)
+[INFO] SoapyLMS7::setAntenna(Rx, 1, LNAL)
+[INFO] SoapyLMS7::setAntenna(Tx, 1, BAND1)
+[INFO] SoapyLMS7::setGain(Rx, 1, PGA, 0 dB)
+[INFO] SoapyLMS7::setGain(Rx, 1, LNA, 0 dB)
+[INFO] SoapyLMS7::setGain(Rx, 1, TIA, 0 dB)
+[INFO] SoapyLMS7::setGain(Tx, 1, PAD, -50 dB)
+[INFO] SoapyLMS7::setSampleRate(Rx, 1, 10 MHz), CGEN=80 MHz, ADC=20 MHz, decim=2
+ConnectionSTREAM::ConfigureFPGA_PLL(tx=20MHz, rx=10MHz)
+[INFO] SoapyLMS7::setSampleRate(Tx, 1, 10 MHz), CGEN=80 MHz, DAC=20 MHz, interp=2
+ConnectionSTREAM::ConfigureFPGA_PLL(tx=10MHz, rx=10MHz)
+[INFO] SoapyLMS7::setBandwidth(Rx, 1, 30 MHz)
+[INFO] Rx Filter calibrated from cache
+[INFO] SoapyLMS7::setBandwidth(Tx, 1, 30 MHz)
+[INFO] Tx Filter calibrated from cache
+[INFO] SoapyLMS7::setSampleRate(Tx, 0, 10 MHz), CGEN=640 MHz, DAC=160 MHz, interp=16
+ConnectionSTREAM::ConfigureFPGA_PLL(tx=10MHz, rx=10MHz)
+[INFO] SoapyLMS7::setFrequency(Tx, 0, RF, 910 MHz)
+SetFrequency using cache values vco:2, csw:183
+[1m[33m[WARNING] GetDC_IQ_Interp(910 MHz, ch=0, tx=1): no matches between [909, 911] MHz[0m
+[INFO] SoapyLMS7::setFrequency(Tx, 0, BB, 2.44141e-06 MHz)
+[INFO] SoapyLMS7::setGain(Tx, 0, PAD, -27 dB)
+[INFO] SoapyLMS7::setBandwidth(Tx, 0, 7.5 MHz)
+[INFO] Tx Filter calibrated from cache
+Press Enter to quit: 
+>>> Done
+
